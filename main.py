@@ -5,7 +5,7 @@ db = mysql.connector.connect(
 host='localhost',
 user='root',
 password=getpass.getpass("Enter your MySQL password: "),
-database='ecommerce_db'
+database='Ecommerce_delivery_db'
 )
 # Create a cursor object
 obj = db.cursor()
